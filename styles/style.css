@@ -1,91 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Shrikhand&display=swap');
 
+:root {
+    --main-bg-color: #ffede8;
+    --main-text-color: #fffdfc;
+    --secound-text-color: #e9a28d;
+    --details-color: #ffd3c6;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    height: 100vh;
-    width: 100%;
-    box-sizing: border-box;
-    background-color: #FEECE2;
-    color:rgb(44, 9, 9);  
+    background-color: var(--main-bg-color);
 }
 
-.titulo__destaque {
-    color:#e79566;
+.header-page{
+    background-color: var(--details-color);
 }
 
-.texto__destaque {
-    color:#ef6868;
+.navegation {
+    color: var(--main-text-color)
 }
 
-.apresentacao {
-    margin: 10vh 50vh; /*top right down left*/
+.main-content{
+    display: flex;
+    flex-direction: column;
+    color: var(--main-text-color)
+}
+
+.main-content__img {
+    border: 2px solid #000;
+}
+
+.main-content__section {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 5% 10%;
 }
 
-.apresentacao__conteudo__titulo {
-    font-size: 4vh;
-    font-family: "DM Serif Display", serif;
-    font-weight: bold;
-    color: #4F0E0E;
-}
-
-.apresentacao__conteudo {
-    width: 50vh;
-    display: flex;
-    flex-direction: column;
-    gap: 2vh;
-}
-
-.apresentacao__conteudo__paragrafo {
-    font-family: "DM Serif Display", serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 2vh;
-    text-align: justify;
-    color: #BB8760;
-}
-
-.apresentacao__euzinha {
-    width: 50vh;
-}
-
-.apresentacao__links {
+.main-content__links {
     display: flex;
     justify-content: space-between;
 }
 
-.apresentacao__links__botoes {
-    font-family: "DM Serif Display", serif;
-    text-decoration: none;
-    color: #4F0E0E;
-    background-color: #E2BFB3;
-    border-radius: 16px;
-    width: 22vh;
-    text-align: center;
-    font-weight: 600;
-    font-size: 2vh;
-    padding: 1.5vh 0;
+.main-content__links__button{
+    background-color: var(--details-color);
+    color: var(--main-text-color);
 }
 
-.apresentacao__links__botoes:hover {
-    font-family: "DM Serif Display", serif;
-    text-decoration: none;
-    color: #e79566;
-    background-color: #F7DED0;
-    border-radius: 16px;
-    width: 22vh;
-    text-align: center;
-    font-weight: 600;
-    font-size: 2vh;
-    padding: 1.5vh 0;
+.footer-page {
+    background-color: var(--details-color);
 }
-
-
-
-
