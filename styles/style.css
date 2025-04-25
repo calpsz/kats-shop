@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Shrikhand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #FEECE2;
+    color:rgb(44, 9, 9);  
+}
+
+.titulo__destaque {
+    color:#e79566;
+}
+
+.texto__destaque {
+    color:#ef6868;
+}
+
+.apresentacao {
+    margin: 10vh 50vh; /*top right down left*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 4vh;
+    font-family: "DM Serif Display", serif;
+    font-weight: bold;
+    color: #4F0E0E;
+}
+
+.apresentacao__conteudo {
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.apresentacao__conteudo__paragrafo {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2vh;
+    text-align: justify;
+    color: #BB8760;
+}
+
+.apresentacao__euzinha {
+    width: 50vh;
+}
+
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__botoes {
+    font-family: "DM Serif Display", serif;
+    text-decoration: none;
+    color: #4F0E0E;
+    background-color: #E2BFB3;
+    border-radius: 16px;
+    width: 22vh;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2vh;
+    padding: 1.5vh 0;
+}
+
+.apresentacao__links__botoes:hover {
+    font-family: "DM Serif Display", serif;
+    text-decoration: none;
+    color: #e79566;
+    background-color: #F7DED0;
+    border-radius: 16px;
+    width: 22vh;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2vh;
+    padding: 1.5vh 0;
+}
+
+
+
+
